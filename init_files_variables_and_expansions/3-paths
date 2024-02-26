@@ -1,2 +1,2 @@
 #!/bin/bash
-alias ls="rm *"
+find $PATH -type d | wc -l
